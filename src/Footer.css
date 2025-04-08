@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
+* {
+  font-family: 'Big Shoulders', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.footer-container {
+  background-color: black;
+  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Side Borders with Curved Notches */
+.side-border {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-color: #a3e635;
+  z-index: 1;
+}
+
+.side-border.left {
+  left: 0;
+}
+
+.side-border.right {
+  right: 0;
+}
+
+/* Content Layout */
+.top-row {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  font-size: 3rem;
+  margin-left: 3rem;
+  position: relative;
+  z-index: 3;
+}
+
+.middle-row {
+  font-size: 3rem;
+  text-align: right;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 3;
+}
+
+.divider {
+  border-top: 1px solid #a6a6a6;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.divider.bottom {
+  width: 70%;
+}
+
+.bottom-divider {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 0.2rem;
+}
+
+.bottom-left {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 3;
+}
+
+/* Social Icons */
+.bottom-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .bottom-row {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.875rem;
+  align-items: center;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: white;
+  text-decoration: none;
+}
+
+.right-notch{
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  height: 50px;
+  border-radius: 15px 15px 0px 15px;
+  background: #ebebeb;
+  width: 20px;
+}
