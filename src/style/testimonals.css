@@ -1,0 +1,63 @@
+.testimonial-card {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  width: 300px;
+  color: white;
+  font-family: "Arial", sans-serif;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+  
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.profile-main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+  
+.profile-circle {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+  
+.name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+  
+.menu {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+  
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.95rem;
+  color: gold;
+  margin-top: 5px;
+}
+  
+.date {
+  color: #ccc;
+}
+  
+.testimonial-container p {
+  font-size: 0.9rem;
+  margin: 4px 0;
+  color: #eee;
+}
+  
