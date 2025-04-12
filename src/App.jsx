@@ -5,6 +5,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Footer from './footer'
 import Homepage from './components/Homepage';
+import DomainPage from './components/DomainPage';
 
 
 function App() {
