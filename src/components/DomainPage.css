@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap" rel="stylesheet"');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100;300;400;700;900&display=swap" rel="stylesheet"');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.domain-page{
+    background-color: #E1FF01;
+    height: 175vh;
+    width: 100vw;
+}
+
+.white-box{
+    background-color: white;
+    height: 150vh;
+    width: 90vw;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    top: 5%;
+    left: 4.5%;
+    z-index: 1;
+}
+ 
+/* black box */
+
+.main-content{
+   background-color: black;
+   width: 105%;
+   height: 70%;
+   z-index: 1;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    position: relative;
+    right:2.5%;
+    top: -2%;
+
+}
+
+.main-content-left{
+    width: 60%;
+    height: 100%;
+    flex-direction: column;
+    font-family: 'Chivo', sans-serif;
+    color: white;
+}
+
+/* devlabs name */
+
+.header {
+    display: flex;
+    height: 60px;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: white;
+    border: 0px transparent;
+    border-radius: 20px;
+    margin: 45px 0px 20px 50px;
+}
+
+.header-logo {
+    background: #000;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.header-name {
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Chivo', sans;
+}
+
+
+.main-content-left h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 40px 0 40px 80px;
+    font-family: 'Akshar', sans-serif;
+}
+
+/* domain white box */
+
+.main-content-domains {
+    background-color: white;
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Chivo', sans;
+    padding: 0px 0px 0px 70px;
+    border: 0px transparent;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 60%;
+    justify-content: center;
+    position: relative;
+    left: 7%;
+    bottom: 3%
+}
+
+.domain-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+}
+
+.domain-links button{
+    display: block;
+    width:fit-content;
+    padding: 0 0 20px 20px;
+    background-color: transparent ;
+    border: 0px transparent;
+    cursor: pointer;
+}
+
+/* image */
+
+.main-content-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.main-content-right img{
+    width: 110%;
+    position: relative;
+    bottom: -10%;
+}
+
+/* domain details */
+
+.domain-details{
+    font-size: 2.5rem;
+    position: absolute;
+    top: 105%;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+    font-family: 'Akshar', sans-serif;
+}
