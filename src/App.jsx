@@ -1,14 +1,18 @@
+
 import React from 'react';
 import Domain from './components/domain';
+import Homepage from './components/Homepage';
+import Footer from './footer';
+import './App.css';
 
 function App() {
-
   return (
-    <div style={{ display: "flex", gap: "20px", justifyContent: "center", flexWrap: "wrap" }}>
-  <DomainCard title="AI/ML" imageSrc={ai} />
-</div>
-
-  )
+    <>
+      <Homepage />
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
+
