@@ -6,7 +6,6 @@ import image from '../assets/image.png';
 
 import "./Homepage.css"
 import Domains from "./Domains";
-import Testimonial from "./Testimonials";
 
 export default function Homepage() {
     const containerStyle = {
@@ -127,6 +126,7 @@ export default function Homepage() {
                 </div>
                 {/* specialization */}
                 <Domains />
+                <Te
               
 
             </div>
