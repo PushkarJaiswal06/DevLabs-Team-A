@@ -127,6 +127,7 @@ export default function Homepage() {
                 </div>
                 {/* specialization */}
                 <Domains />
+                <Testimonials/>
               
 
             </div>
